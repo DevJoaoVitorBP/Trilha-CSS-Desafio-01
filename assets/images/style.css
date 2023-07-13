@@ -1,48 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
 *{
     margin: 0;
     padding: 0;
-    border: 0;
-    
+    border: 0;   
 }
-
 body{
-
     background-color: rgba(0, 0, 0, 1);
     font-family: 'Raleway',sans-serif;
-   
-
 }
-
-
-.banner{
-
-    
+.banner{   
 display: flex;
 height: 605px;
 width: 1536px;    
 background: rgba(8, 9, 51);
 background-image: linear-gradient(0deg, rgba(0,2,5,0.9) 3%, rgba(12,19,99,0.1) 66%, rgba(4,2,0,0.5) 93%), url("banner.png" );
 background-repeat: no-repeat;
-
-
-
 }
-
 .banner-content{
-
     color: aliceblue;
     text-align: center;
-
     margin-left: 520px;
     margin-top: 56px;
-
-
 }
-
 .banner-content > h1{
-
     background-image: linear-gradient(rgba(51, 168, 219, 1), rgba(20, 114, 183, 1));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -50,11 +30,8 @@ background-repeat: no-repeat;
   font-weight: 900;
   line-height: normal;
   margin-top: 16px;
-
 }
-
 .banner-content > p{
-
     margin-top: 16px;
     font-size: 20px;
     width: 510px;
@@ -62,11 +39,8 @@ background-repeat: no-repeat;
     font-weight: 400;
     flex-direction: column;
 }
-
 .banner-content > button{
-
     margin-top: 24px;
- 
     padding: 19px 80px;
     justify-content: center;
     align-items: center;
@@ -80,12 +54,8 @@ background-repeat: no-repeat;
     font-weight: 900;
     line-height: normal;
     letter-spacing: 3.36px;
-
-
 }
-
 #course-content{
-
     display: flex;
     flex-direction: column;
     height: 325px;
@@ -96,33 +66,23 @@ background-repeat: no-repeat;
     margin-left: auto;
     margin-right: auto;
 }
-
 #course-content > h2{
-
     color: #33A8DB;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 6.08px;
-    
-
-
 }
-
 #course-content > p {
-
     display: flex;
     width: 792px;
     flex-direction: column;
     color: #FFF;
     text-align: center;
-    font-size: 16px;
-    
+    font-size: 16px;   
 }
-
 [class="modules-list"] > .module{
-
     padding: 16px 127px;
     display: flex;
     margin-top: 24px;
@@ -133,14 +93,10 @@ background-repeat: no-repeat;
     border: 1px solid #33A8DB;
     background: #252525;
     box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.40) inset;
-
     font-size: 16px;
     font-weight: 400;
-
 }
-
 #transform-world{
-
     margin-top: 100px;
     background-image: url("../images/thisisengineering-raeng-8hgmG03spF4-unsplash\ 1.png");
     width: 1536px;
@@ -148,26 +104,18 @@ background-repeat: no-repeat;
     flex-shrink: 0;
     background-repeat: no-repeat;
     background-size: 100%;
-    
-
 }
-
 #transform-world > p{
-
     color: #FFF;
     font-size: 40px;
-    
     white-space: pre-wrap;
     width: 290px;
     text-shadow: 3px 2px #33A8DB;
     position: relative;
     top: 30%;
     left: 10%;
-    
 }
-
-#professional-challenges {
-    
+#professional-challenges {   
     margin-top: 76px;
     text-align: center;
     justify-content: center;
@@ -176,24 +124,17 @@ background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
 }
-
 #professional-challenges > p{
-
     display: flex;
-    
     flex-direction: column;
     justify-content: center;
     color: #FFF;
     text-align: center;
     font-size: 16px;
     font-weight: 400;
-
 }
-
 footer{
-
     height: 170px;
-
     margin-top: 91px;
     color: #FFF;
     text-align: center;
